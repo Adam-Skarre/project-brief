@@ -1,0 +1,360 @@
+{
+  "scope": "Deterministic controls and rule-based demo only. NOT LLM evaluation.",
+  "cases": 32,
+  "passed": 32,
+  "live_model_tested": false,
+  "results": [
+    {
+      "case": "done/2026-10-17/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "done/2026-10-17/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "done/2026-10-18/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "done/2026-10-18/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "done/2026-10-19/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "done/2026-10-19/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "done/missing date/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "done/missing date/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "in_progress/2026-10-17/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "in_progress/2026-10-17/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "in_progress/2026-10-18/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "in_progress/2026-10-18/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "in_progress/2026-10-19/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "in_progress/2026-10-19/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "in_progress/missing date/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "in_progress/missing date/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "blocked/2026-10-17/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "blocked/2026-10-17/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "blocked/2026-10-18/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "blocked/2026-10-18/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "blocked/2026-10-19/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "blocked/2026-10-19/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "blocked/missing date/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "blocked/missing date/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "not_started/2026-10-17/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "not_started/2026-10-17/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "not_started/2026-10-18/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "not_started/2026-10-18/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "not_started/2026-10-19/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "not_started/2026-10-19/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "not_started/missing date/Alex",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    },
+    {
+      "case": "not_started/missing date/missing owner",
+      "passed": true,
+      "checks": {
+        "overdue": true,
+        "blocked": true,
+        "missing_fields": true,
+        "citation_validity": true,
+        "review_gate": true
+      }
+    }
+  ]
+}
