@@ -2,7 +2,7 @@
 
 An AI workflow portfolio project for document question answering with inspectable retrieval, cited claims, and explicit abstention. The original CSV reporting workflow remains available in `app.py`; see [reporting documentation](docs/REPORTING.md).
 
-**Status:** the core and offline retrieval evaluation run locally. Live model, Chroma, Langfuse, Docker, and browser integration require verification in an environment with their dependencies/services. Offline mode is a lexical retrieval demonstration and never pretends to generate an LLM answer. This is an independent portfolio project, not an MTA deployment or evidence of enterprise AI experience.
+**Status:** all 30 tests, including API integration, and the offline evaluation gate passed in [GitHub Actions on Python 3.11 and 3.13](https://github.com/Adam-Skarre/project-brief/actions/runs/39173329529). The core and offline retrieval evaluation also run locally. Live model, Chroma, Langfuse, Docker, and browser integration require verification in an environment with their dependencies/services. Offline mode is a lexical retrieval demonstration and never pretends to generate an LLM answer. This is an independent portfolio project, not an MTA deployment or evidence of enterprise AI experience.
 
 ## Run the document app
 

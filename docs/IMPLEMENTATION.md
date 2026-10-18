@@ -14,13 +14,13 @@
 | Generation evaluation | Saved answers, human CSV, optional structured model judge, Cohen kappa | Metric tests; no human or live judge scores yet |
 | Observability | Local traces and optional Langfuse observations | Local traces exercised; external trace service unverified |
 | Cache and budget | Model/corpus-aware TTL cache, transactional per-database reservation cap | Cache isolation and budget tests |
-| UI and API | FastAPI, upload/index/question/source/trace interface | JavaScript syntax checked; API test included, locally skipped without dependencies |
+| UI and API | FastAPI, upload/index/question/source/trace interface | JavaScript syntax checked; API authorization, ingestion, question, body and rate limit test passed in GitHub Actions |
 | Deployment | Nonroot Docker, persistent volume, bearer token, body/rate limits | Config supplied; image build and remote deployment not run |
-| CI | Core/API tests and offline MRR floor | Workflow supplied; inspect GitHub Actions for remote result |
+| CI | Core/API tests and offline MRR floor | Passed on Python 3.11 and 3.13; run 39173329529 |
 
 ## Remaining work before making live performance claims
 
-1. Install dependencies and verify UI and API end to end.
+1. Install dependencies and verify the browser UI end to end; the API integration test already passed in CI.
 2. Supply live model credentials or local Ollama models; verify provider contracts.
 3. Use a larger authorized corpus with held-out questions and independently reviewed source labels.
 4. Compare at least two learned embedding models and a live reranker.
@@ -28,3 +28,5 @@
 6. Test optional services, build the image, and deploy only after validating secret handling and persistence.
 
 The baseline and improved methods share the same question set. No guide example numbers are used as results. This repository makes no claims about enterprise deployment, employer adoption, training a foundation model, or production reliability.
+
+CI evidence: [run 39173329529](https://github.com/Adam-Skarre/project-brief/actions/runs/39173329529), implementation commit `c08346874d1d75b4adb79447a82906d2ebcb35c3`. All 30 tests passed without skips in CI. Locally, 29 passed and one API test was skipped because dependencies were unavailable.
