@@ -1,0 +1,3 @@
+# Evaluation protocol
+
+Retrieval evaluation reports Recall at 20, Precision at 5, mean reciprocal rank, and normalized discounted cumulative gain at 5. Relevant chunks are mapped from document names and labelled evidence quotations. The bundled questions are author-created development examples, not an independently annotated benchmark. Unanswerable questions are excluded from retrieval metrics and included in generation review. Chunk-size sweeps and model comparisons must use the same questions. Generation evaluation needs human labels for groundedness, relevance, and hallucination. Agreement between model and human labels is measured with Cohen kappa. A small corpus can make Recall at 20 trivial; precision and ranking metrics should be inspected too.

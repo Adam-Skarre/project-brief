@@ -1,0 +1,3 @@
+# Budget controls
+
+Paid requests reserve a user-configured amount before contacting a provider. A SQLite transaction checks a rolling 24-hour reservation cap. Failed requests keep their reservation. There are no automatic retries. These amounts are reservations, not measured billing. To approximate a spending cap, the operator must configure conservative per-call upper bounds for the selected model, input size, and output limit. Provider billing limits remain necessary. The application records provider usage when available. Local Ollama calls do not create paid API reservations. The generation output limit is 2000 tokens. Embedding requests are batched in groups of at most 32 inputs.

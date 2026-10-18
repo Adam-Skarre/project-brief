@@ -1,0 +1,3 @@
+# Data handling
+
+Uploaded text, vectors, answers, and local execution traces are stored in the local_data directory by default. Do not upload employer-confidential documents to a public demonstration. OpenAI embedding calls send document text to OpenAI. OpenAI generation calls send the question and retrieved chunks. Cohere reranking sends the question and candidate text. Ollama runs at the local loopback address. Langfuse tracing is disabled by default and must be explicitly enabled. Enabling it can export prompts and source contents to the configured tracing service. Local traces persist without automatic retention cleanup. Remove the local database and Chroma directory to delete a local corpus.

@@ -1,0 +1,3 @@
+# Deployment model
+
+The FastAPI entrypoint is rag_api:app and the default documented port is 8766. Public mode requires an access token of at least 24 characters. The deployment is a single-tenant demonstration, not an enterprise identity system. The default global rate limit is 12 authenticated requests per minute. Request bodies are limited to 1500000 bytes. Docker runs one worker and binds the compose service to loopback by default. Use a TLS reverse proxy before remote exposure. Multiple workers would have independent in-memory rate counters. A persistent writable volume is needed to preserve indexes, cache entries, and budget reservations across restarts.

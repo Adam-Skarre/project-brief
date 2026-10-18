@@ -1,0 +1,3 @@
+# Retrieval architecture
+
+Dense retrieval computes cosine similarity between the question embedding and document embeddings. SQLite stores vectors and performs an exact scan, suitable for small portfolios. Chroma is the optional persistent vector database. Hybrid retrieval combines dense and BM25 rankings using reciprocal rank fusion with constant 60. Each retriever supplies up to 50 candidates. Reranking runs after fusion, and the answer generator receives the top five chunks. The offline embedding uses lexical feature hashing, not a learned semantic model. The offline reranker measures query term coverage, not cross-encoder relevance. Cohere provides the live reranker.

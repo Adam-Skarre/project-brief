@@ -1,0 +1,3 @@
+# Cache identity
+
+Answers are cached for one hour. The cache key includes the index identity, question, retrieval configuration, reranker, generator, model configuration, and pipeline version. Changing document content creates a new index and prevents reuse of an answer from an old corpus. A cache hit creates a new trace identifier and does not make new provider calls. The cache stores answers and retrieved document content in the local database. Expired entries are removed when writing new entries. There is no shared multi-user cache isolation because this application is designed for a single trusted operator.

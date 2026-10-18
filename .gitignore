@@ -2,3 +2,9 @@ __pycache__/
 .env
 *.key
 local_reports/
+
+.env
+.env.*
+!.env.example
+local_data/
+.venv/

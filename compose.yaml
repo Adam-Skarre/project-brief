@@ -1,0 +1,9 @@
+services:
+  rag:
+    build: .
+    env_file: .env
+    ports: ["127.0.0.1:8766:8766"]
+    volumes: ["rag-data:/app/local_data"]
+    restart: unless-stopped
+volumes:
+  rag-data:

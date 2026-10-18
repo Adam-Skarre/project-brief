@@ -1,0 +1,3 @@
+# Document ingestion
+
+The document uploader accepts Markdown and plain text files. PDF extraction is not implemented. Each index supports up to 30 documents and 1000 chunks. Documents are split into overlapping word windows, with original character offsets and line ranges retained. Chunk identifiers incorporate a hash of the filename and contents. Changing document text therefore produces a new index. Names must be unique within an index. The default chunk size is 180 words with 35 words of overlap. Chunk size must be between 30 and 800 words; overlap must be smaller than the chunk size. Blank documents are rejected.

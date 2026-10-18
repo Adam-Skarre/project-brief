@@ -1,0 +1,3 @@
+# Grounded answers
+
+Every generated claim must include a known chunk identifier and a verbatim quotation from that chunk. The validator rejects unknown identifiers and invented quotations. Exact quotation validation does not establish semantic entailment: a real quotation can still fail to support a claim. Human review and generation evaluation are required to assess support. The generator is instructed to abstain when the supplied sources do not answer the question. Offline mode always returns a retrieval preview without an answer. Its abstentions must not be counted as evidence of successful answerability detection. Sources are treated as untrusted data; the model has no execution tools.
